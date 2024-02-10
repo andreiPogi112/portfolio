@@ -1,0 +1,134 @@
+html{
+    width: 90%;
+    margin: 0px auto;
+}
+
+.navbar{
+    font-family: 'Nunito', serif;
+    border-bottom: 1px solid black;
+}
+
+.andrei-link{
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  }
+
+  .nav-link:hover {
+    color: black; 
+  }
+
+  .nav-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: black; 
+    transition: width 0.3s ease;
+  }
+
+  .nav-link:hover::before {
+    width: 100%;
+  }
+
+  .hero-section{
+    height: 100vh;
+    font-family: 'Nunito', serif;
+    border-bottom: 1px solid black;
+  }
+
+  .intro-text{
+    margin-top: 20vh;
+    font-size: 72px;
+    font-weight: bolder;
+    color: black;
+  }
+
+  .about-section{
+    margin-top: 50px;
+    font-family: 'Nunito', serif;
+    height: 100vh;
+  }
+
+  .about-me{
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+  }
+
+  .andrei-words{
+    font-weight:lighter;
+    text-justify: distribute-all-lines;
+    line-height: 35px;
+  }
+
+  .next-level{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 32px;
+  }
+
+  .round-pic{
+    border-radius: 50%;
+    border: 1px solid black;
+    height: 250px;
+    width: 250px;
+    margin: 0px auto;
+    display: block;
+  }
+
+
+  .works-section{
+    font-family: 'Nunito', serif;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+  }
+
+  .work-with-me-section{
+    margin-top: 50px;
+    font-family: 'Nunito', serif;
+    text-align: center;
+  }
+
+  .name {
+    display: inline-block;
+    padding: 20px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+
+  .name:hover {
+    background-color: black;
+    color: black
+  }
+
+  .name::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    color: black;
+    transition: width 0.3s ease;
+  }
+
+  .name:hover::before {
+    width: 100%;
+    color: black;
+  }
